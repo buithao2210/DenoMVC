@@ -39,3 +39,5 @@ C:\NetCore\DenoMVC\obj\Debug\net5.0\DenoMVC.pdb
 C:\NetCore\DenoMVC\obj\Debug\net5.0\DenoMVC.genruntimeconfig.cache
 C:\NetCore\DenoMVC\obj\Debug\net5.0\DenoMVC.csproj.CopyComplete
 C:\NetCore\DenoMVC\obj\Debug\net5.0\Razor\Views\Shared\_LayoutNew.cshtml.g.cs
+C:\NetCore\DenoMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\GetName.cshtml.g.cs
+C:\NetCore\DenoMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
