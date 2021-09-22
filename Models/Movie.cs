@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace DENOMVC.Models
+namespace DenoMVC.Models
 {
     public class Movie
     {

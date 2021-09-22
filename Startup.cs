@@ -9,7 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-namespace DenoMVC
+using DenoMVC.Data;
+namespace DenoMVC.Models
 {
     public class Startup
     {

@@ -4,8 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using DenoMVC.Data;
 
-namespace DENOMVC.Migrations
+namespace DenoMVC.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     [Migration("20210920161334_Create_Table_Student")]

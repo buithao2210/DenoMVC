@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using DENOMVC.Models;
+using DenoMVC.Models;
+using DenoMVC.Data;
 
-namespace DENOMVC.Controllers
+namespace DenoMVC.Controllers
 {
     public class StudentsController : Controller
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace DENOMVC.Controllers
+namespace DenoMVC.Controllers
 {
     public class HelloWorldController : Controller
     {

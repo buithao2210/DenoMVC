@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using DenoMVC.Data;
 
-namespace DENOMVC.Migrations
+namespace DenoMVC.Migrations
 {
     public partial class InitialCreate : Migration
     {

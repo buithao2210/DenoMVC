@@ -3,8 +3,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using DenoMVC.Data;
 
-namespace DENOMVC.Migrations
+namespace DenoMVC.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     partial class MvcMovieContextModelSnapshot : ModelSnapshot
