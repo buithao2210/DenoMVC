@@ -1,0 +1,41 @@
+@model IEnumerable<BTT585.Models.BTT2210>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BTTName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BTTGender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BTTName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BTTGender)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BTTId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BTTId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BTTId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
